@@ -23,3 +23,8 @@ function destructivelyPrependKitten(name) {
 function removeLastKitten() {
   return kittens.slice(0,-1)
 }
+
+function destructivelyRemoveLastKitten() {
+  kittens.pop()
+  return kittens
+}
