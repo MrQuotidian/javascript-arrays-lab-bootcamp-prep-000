@@ -19,3 +19,7 @@ function destructivelyPrependKitten(name) {
   kittens.unshift(name)
   return kittens
 }
+
+function removeLastKitten() {
+  return kittens.slice(0,-1)
+}
